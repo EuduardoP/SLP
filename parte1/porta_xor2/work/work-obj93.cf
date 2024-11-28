@@ -1,0 +1,7 @@
+v 4
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\porta_xor2\" ".\porta_xor2.vhd" "6797be8f4fbb50689d16fc76e9108cfc4e8e215d" "20241121193604.298":
+  entity porta_xor2 at 23( 1024) + 0 on 31;
+  architecture simples of porta_xor2 at 36( 1641) + 0 on 32;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\porta_xor2\" ".\porta_xor2_tb.vhd" "302c4c5016fba6439c20b696beb2bc159131c3b7" "20241121193604.304":
+  entity porta_xor2_tb at 23( 1041) + 0 on 33;
+  architecture simples of porta_xor2_tb at 33( 1538) + 0 on 34;

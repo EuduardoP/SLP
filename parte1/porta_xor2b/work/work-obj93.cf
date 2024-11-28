@@ -1,0 +1,16 @@
+v 4
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\porta_xor2b\" "porta_xor2b_tb.vhd" "eb4455b2f807584c6ac7218efe65277fc1962751" "20241121195245.242":
+  entity porta_xor2b_tb at 23( 1041) + 0 on 19;
+  architecture simples of porta_xor2b_tb at 33( 1458) + 0 on 20;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\porta_xor2b\" "porta_or2.vhd" "dd3a2915fe2d57195e87383100e1e0783ccbb8ac" "20241121195241.974":
+  entity porta_or2 at 23( 1023) + 0 on 15;
+  architecture simples of porta_or2 at 36( 1635) + 0 on 16;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\porta_xor2b\" "porta_not.vhd" "58393c95acd4546e108acbb3f154f95ed9badfd7" "20241121195238.445":
+  entity porta_not at 23( 1006) + 0 on 11;
+  architecture simples of porta_not at 35( 1552) + 0 on 12;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\porta_xor2b\" "porta_and2.vhd" "8690c1482239d6f3c17b2606fe16b00f6ae3bfa9" "20241121195240.283":
+  entity porta_and2 at 23( 1024) + 0 on 13;
+  architecture simples of porta_and2 at 36( 1641) + 0 on 14;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\porta_xor2b\" "porta_xor2b.vhd" "a378cd03711d0a60bbffb262eee8ccda3dd0c496" "20241121195243.762":
+  entity porta_xor2b at 23( 1024) + 0 on 17;
+  architecture simples of porta_xor2b at 36( 1643) + 0 on 18;
