@@ -1,0 +1,7 @@
+v 4
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte1\q4_v1\" "q4_v1_tb.vhd" "31c59e8c896d4eca760aaa0e5ba1a0d1a08c92aa" "20241128182139.858":
+  entity q4_v1_tb at 1( 0) + 0 on 13;
+  architecture simple of q4_v1_tb at 7( 84) + 0 on 14;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte1\q4_v1\" "q4_v1.vhd" "d7e7c02b9b8e03f899254a1a0a26de64e709d553" "20241128182139.857":
+  entity q4_v1 at 1( 0) + 0 on 11;
+  architecture simple of q4_v1 at 14( 214) + 0 on 12;
