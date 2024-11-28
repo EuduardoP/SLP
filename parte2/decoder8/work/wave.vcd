@@ -1,0 +1,72 @@
+$date
+  Thu Nov 28 01:22:39 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module decoder8_tb $end
+$var reg 3 ! x[2:0] $end
+$var reg 1 " e $end
+$var reg 8 # y[7:0] $end
+$scope module uut $end
+$var reg 3 $ x[2:0] $end
+$var reg 1 % e $end
+$var reg 8 & y[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b000 !
+0"
+b00000000 #
+b000 $
+0%
+b00000000 &
+#10000000
+1"
+b00000001 #
+1%
+b00000001 &
+#20000000
+b001 !
+b00000010 #
+b001 $
+b00000010 &
+#30000000
+b010 !
+b00000100 #
+b010 $
+b00000100 &
+#40000000
+b011 !
+b00001000 #
+b011 $
+b00001000 &
+#50000000
+b100 !
+b00010000 #
+b100 $
+b00010000 &
+#60000000
+b101 !
+b00100000 #
+b101 $
+b00100000 &
+#70000000
+b110 !
+b01000000 #
+b110 $
+b01000000 &
+#80000000
+b111 !
+b10000000 #
+b111 $
+b10000000 &
+#90000000

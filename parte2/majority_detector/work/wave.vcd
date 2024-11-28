@@ -1,0 +1,58 @@
+$date
+  Thu Nov 28 01:27:10 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module majority4_tb $end
+$var reg 4 ! x[3:0] $end
+$var reg 1 " y $end
+$scope module uut $end
+$var reg 4 # x[3:0] $end
+$var reg 1 $ y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+0"
+b0000 #
+0$
+#10000000
+b0001 !
+b0001 #
+#20000000
+b0011 !
+b0011 #
+#30000000
+b0111 !
+1"
+b0111 #
+1$
+#40000000
+b1111 !
+b1111 #
+#50000000
+b1110 !
+b1110 #
+#60000000
+b1100 !
+0"
+b1100 #
+0$
+#70000000
+b1010 !
+b1010 #
+#80000000
+b1011 !
+1"
+b1011 #
+1$
+#90000000

@@ -1,0 +1,7 @@
+v 4
+file "/home/eduardo/Obsidian Vault/2° Semestre de 2024/SLP/trab2/parte2/comparator_4bit/" "comparator_tb.vhd" "2932814792debbb55b87c46cb36a85e1239fff23" "20241128043131.282":
+  entity comparator_tb at 1( 0) + 0 on 15;
+  architecture behavioral of comparator_tb at 7( 88) + 0 on 16;
+file "/home/eduardo/Obsidian Vault/2° Semestre de 2024/SLP/trab2/parte2/comparator_4bit/" "comparator.vhd" "085f7858f1d335d00a7b634798fad09443dfb3a0" "20241128043131.291":
+  entity comparator at 1( 0) + 0 on 17;
+  architecture behavioral of comparator at 16( 373) + 0 on 18;
