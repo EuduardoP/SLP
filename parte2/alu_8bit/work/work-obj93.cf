@@ -1,0 +1,7 @@
+v 4
+file "/home/eduardo/Obsidian Vault/2° Semestre de 2024/SLP/trab2/parte2/alu_8bit/" "ula1.vhd" "6dc26cdadccf6990edc070250e172a773a3885b7" "20241128043521.454":
+  entity ula1 at 1( 0) + 0 on 13;
+  architecture behavioral of ula1 at 14( 302) + 0 on 14;
+file "/home/eduardo/Obsidian Vault/2° Semestre de 2024/SLP/trab2/parte2/alu_8bit/" "ula1_tb.vhd" "0fec92349c1b4ba3d5b7cf8de27fb8958531a688" "20241128043521.452":
+  entity ula1_tb at 1( 0) + 0 on 11;
+  architecture behavioral of ula1_tb at 8( 102) + 0 on 12;

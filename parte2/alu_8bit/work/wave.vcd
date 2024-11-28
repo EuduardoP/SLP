@@ -1,0 +1,61 @@
+$date
+  Thu Nov 28 01:35:35 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module ula1_tb $end
+$var reg 8 ! a[7:0] $end
+$var reg 8 " b[7:0] $end
+$var reg 2 # controle[1:0] $end
+$var reg 8 $ c[7:0] $end
+$scope module uut $end
+$var reg 8 % a[7:0] $end
+$var reg 8 & b[7:0] $end
+$var reg 2 ' controle[1:0] $end
+$var reg 8 ( c[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00001100 !
+b00000011 "
+b00 #
+b00001111 $
+b00001100 %
+b00000011 &
+b00 '
+b00001111 (
+#10000000
+b01 #
+b00001001 $
+b01 '
+b00001001 (
+#20000000
+b11110000 !
+b00111100 "
+b10 #
+b00110000 $
+b11110000 %
+b00111100 &
+b10 '
+b00110000 (
+#30000000
+b11111111 !
+b11111111 "
+b11 #
+b00000000 $
+b11111111 %
+b11111111 &
+b11 '
+b00000000 (
+#40000000
