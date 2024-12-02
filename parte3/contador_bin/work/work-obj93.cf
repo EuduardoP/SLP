@@ -1,0 +1,7 @@
+v 4
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte3\contador_bin\" "contador_bin_tb.vhd" "53f29994d7a2002957eaa1e2960c6d78fd1d4d56" "20241202215532.495":
+  entity contador_bin_tb at 1( 0) + 0 on 29;
+  architecture behavioral of contador_bin_tb at 7( 98) + 0 on 30;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte3\contador_bin\" "contador_bin.vhd" "164473e7339ea2ac2ca4d6ec383bdb3899eb15c8" "20241202215532.494":
+  entity contador_bin at 1( 0) + 0 on 27;
+  architecture behavioral of contador_bin at 13( 306) + 0 on 28;
