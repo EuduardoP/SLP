@@ -1,0 +1,7 @@
+v 4
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\ula_8bit\" "ula_8bit_tb.vhd" "a721e0cd2e5a887a22f64c3aba513a6fdf3acb22" "20241202213723.874":
+  entity ula_8bit_tb at 1( 0) + 0 on 13;
+  architecture simple of ula_8bit_tb at 8( 116) + 0 on 14;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\ula_8bit\" "ula_8bit.vhd" "56da81c9e00f358f769535f3897ffbf2034bdc37" "20241202213723.873":
+  entity ula_8bit at 1( 0) + 0 on 11;
+  architecture simple of ula_8bit at 15( 316) + 0 on 12;
