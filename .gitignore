@@ -1,3 +1,6 @@
+# Removendo arquivos pdf
 *.pdf
 **/*.pdf
+
+# Removendo arquivos feitos pelo gpt
 *-chat
