@@ -1,0 +1,85 @@
+$date
+  Mon Dec 02 16:52:47 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module detector_tb $end
+$var reg 4 ! x[3:0] $end
+$var reg 1 " y $end
+$scope module uut $end
+$var reg 4 # x[3:0] $end
+$var reg 1 $ y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+0"
+b0000 #
+0$
+#10000000
+b0001 !
+b0001 #
+#20000000
+b0010 !
+b0010 #
+#30000000
+b0011 !
+b0011 #
+#40000000
+b0100 !
+b0100 #
+#50000000
+b0101 !
+b0101 #
+#60000000
+b0110 !
+b0110 #
+#70000000
+b0111 !
+1"
+b0111 #
+1$
+#80000000
+b1000 !
+0"
+b1000 #
+0$
+#90000000
+b1001 !
+b1001 #
+#100000000
+b1010 !
+b1010 #
+#110000000
+b1011 !
+1"
+b1011 #
+1$
+#120000000
+b1100 !
+0"
+b1100 #
+0$
+#130000000
+b1101 !
+1"
+b1101 #
+1$
+#140000000
+b1110 !
+b1110 #
+#150000000
+b1111 !
+b1111 #
+#160000000
