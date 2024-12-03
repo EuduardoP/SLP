@@ -1,7 +1,7 @@
 v 4
-file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\decoder8\" "decoder8_tb.vhd" "5623b235307d4edd8deeb1b0d3b3100fcbd7ac03" "20241202194812.024":
-  entity decoder8_tb at 1( 0) + 0 on 21;
-  architecture behavioral of decoder8_tb at 8( 118) + 0 on 22;
-file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\decoder8\" "decoder8.vhd" "7d60c9a2c0f5cc550c1f3356bb097986499f5338" "20241202194812.023":
-  entity decoder8 at 1( 0) + 0 on 19;
-  architecture simple of decoder8 at 13( 337) + 0 on 20;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\decoder8-for\" "decoder8_tb.vhd" "def450f4eccef447039536826a705ef0d13b224a" "20241203165835.596":
+  entity decoder8_tb at 1( 0) + 0 on 33;
+  architecture simple of decoder8_tb at 8( 118) + 0 on 34;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\decoder8-for\" "decoder8.vhd" "f03b5ed9f6d58f65232b36397b05df320f9c4c1c" "20241203165835.589":
+  entity decoder8 at 1( 0) + 0 on 31;
+  architecture simple of decoder8 at 13( 337) + 0 on 32;

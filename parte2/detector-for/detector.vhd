@@ -19,7 +19,7 @@ begin
 ---------------- incrementa o contador se o bit for '1' ----------------
         for i in 0 to 3 loop
             if x(i)= '1' then
-                count := count + 1; 
+                count := count + 1; -- incrementa o contador se o bit atual for '1'
             end if;
         end loop;
 ------------------------------------------------------------------------
@@ -27,9 +27,9 @@ begin
 
 ----------- se houver mais de 2 bits '1', a saída é '1' ----------------
         if count > 2 then
-            y <= '1'; 
+            y <= '1'; -- se o contador for maior que 2, a saída y é '1'
         else
-            y <= '0'; -- caso contrário, a saída é '0'
+            y <= '0'; -- caso contrário, a saída y é '0'
         end if;
 ------------------------------------------------------------------------
     end process;

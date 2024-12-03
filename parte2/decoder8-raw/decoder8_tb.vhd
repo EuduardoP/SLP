@@ -13,9 +13,9 @@ architecture Behavioral of decoder8_tb is
         );
     end component;
     
-    signal x : STD_LOGIC_VECTOR(2 downto 0);
-    signal E : STD_LOGIC;
-    signal y : STD_LOGIC_VECTOR(7 downto 0);
+    signal x : STD_LOGIC_VECTOR(2 downto 0); -- Sinal de entrada de 3 bits
+    signal E : STD_LOGIC; -- Sinal de habilitação
+    signal y : STD_LOGIC_VECTOR(7 downto 0); -- Sinal de saída de 8 bits
 
 begin
     uut: decoder8 port map (
@@ -26,32 +26,32 @@ begin
 
     stim_proc: process
     begin
-        -- Test with E = 0 (disabled)
+        -- Teste com E = 0 (desabilitado)
         E <= '0';
-        x <= "000";
+        x <= "000"; -- Entrada 0
         wait for 10 ns;
         
-        -- Test with E = 1 (enabled)
+        -- Teste com E = 1 (habilitado)
         E <= '1';
         
-        -- Test all input combinations
-        x <= "000";
+        -- Testa todas as combinações de entrada
+        x <= "000"; -- Entrada 0
         wait for 10 ns;
-        x <= "001";
+        x <= "001"; -- Entrada 1
         wait for 10 ns;
-        x <= "010";
+        x <= "010"; -- Entrada 2
         wait for 10 ns;
-        x <= "011";
+        x <= "011"; -- Entrada 3
         wait for 10 ns;
-        x <= "100";
+        x <= "100"; -- Entrada 4
         wait for 10 ns;
-        x <= "101";
+        x <= "101"; -- Entrada 5
         wait for 10 ns;
-        x <= "110";
+        x <= "110"; -- Entrada 6
         wait for 10 ns;
-        x <= "111";
+        x <= "111"; -- Entrada 7
         wait for 10 ns;
         
-        wait;
+        wait; -- Espera indefinidamente
     end process;
-end Behavioral;
+end architecture;

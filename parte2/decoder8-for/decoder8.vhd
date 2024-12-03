@@ -15,14 +15,12 @@ begin
   process (x, E)  
   begin  
     if E = '0' then  
-      y <= std_logic_vector(to_unsigned(0, 7)); -- se E for '0', todas as saídas são '0'  
+      y <= (others => '0'); -- se E for '0', todas as saídas são '0'  
     else  
       y <= (others => '0'); -- inicializa todas as saídas como '0'  
-      for i in 0 to 7 loop  
-        if x = std_logic_vector(to_unsigned(i, 3)) then  
-          y(i) <= '1'; -- ativa a saída correspondente ao valor de x  
-        end if;  
-      end loop;  
+      if to_integer(unsigned(x)) < 8 then  
+        y(to_integer(unsigned(x))) <= '1'; -- ativa a saída correspondente ao valor de x  
+      end if;  
     end if;  
   end process;  
 end architecture;

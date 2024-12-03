@@ -17,9 +17,8 @@ architecture simple of comparador_tb is
         );
     end component;
 
-    signal A, B : STD_LOGIC_VECTOR (3 downto 0);
-    signal us, igual, menor, maior : STD_LOGIC;
-    
+    signal A, B : STD_LOGIC_VECTOR (3 downto 0); -- Sinais de entrada A e B
+    signal us, igual, menor, maior : STD_LOGIC; -- Sinais de controle e saída
     
 begin
     uut: comparador port map (
@@ -34,41 +33,41 @@ begin
     stim_proc: process
     begin
         --- testando sem sinal ---
-        us <= '1';
+        us <= '1'; -- Define o modo sem sinal
 
         --- testando igualdade ---
-        A <= "0101"; -- 5
-        B <= "0101"; -- 5
-        wait for 10 ns;
+        A <= "0101"; -- A recebe 5
+        B <= "0101"; -- B recebe 5
+        wait for 10 ns; -- Aguarda 10 ns
 
         --- testando A > B ---
-        A <= "1000"; -- 8
-        B <= "0100"; -- 4
-        wait for 10 ns;
+        A <= "1000"; -- A recebe 8
+        B <= "0100"; -- B recebe 4
+        wait for 10 ns; -- Aguarda 10 ns
 
         --- testando A < B ---
-        A <= "0011"; -- 3
-        B <= "1111"; -- 7
-        wait for 10 ns;
+        A <= "0011"; -- A recebe 3
+        B <= "1111"; -- B recebe 7
+        wait for 10 ns; -- Aguarda 10 ns
 
         --- testando com sinal ---
-        us <= '0';
+        us <= '0'; -- Define o modo com sinal
 
         --- testando igualdade ---
-        A <= "1001"; -- 5
-        B <= "1001"; -- 5
-        wait for 10 ns;
+        A <= "1001"; -- A recebe 5
+        B <= "1001"; -- B recebe 5
+        wait for 10 ns; -- Aguarda 10 ns
 
         --- testando A > B ---
-        A <= "1111"; -- -1
-        B <= "1100"; -- -4
-        wait for 10 ns;
+        A <= "1111"; -- A recebe -1
+        B <= "1100"; -- B recebe -4
+        wait for 10 ns; -- Aguarda 10 ns
 
         --- testando A < B ---
-        A <= "1000"; -- -8
-        B <= "1011"; -- -5
-        wait for 10 ns;
-        wait;
+        A <= "1000"; -- A recebe -8
+        B <= "1011"; -- B recebe -5
+        wait for 10 ns; -- Aguarda 10 ns
+        wait; -- Finaliza o processo
     end process;
     
 

@@ -1,7 +1,7 @@
 v 4
-file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\detector-for\" "detector_tb.vhd" "7051cb18d4d24a57bed11fa7afc45b2436d70f21" "20241202195247.053":
-  entity detector_tb at 1( 0) + 0 on 29;
-  architecture simple of detector_tb at 8( 113) + 0 on 30;
-file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\detector-for\" "detector.vhd" "57ba2e009850b735cfae0d5d94549d3af1fdd68b" "20241202195247.050":
-  entity detector at 1( 0) + 0 on 27;
-  architecture simple of detector at 12( 233) + 0 on 28;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\detector-for\" "detector.vhd" "57ba2e009850b735cfae0d5d94549d3af1fdd68b" "20241203170141.783":
+  entity detector at 1( 0) + 0 on 31;
+  architecture simple of detector at 12( 233) + 0 on 32;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\detector-for\" "detector_tb.vhd" "7051cb18d4d24a57bed11fa7afc45b2436d70f21" "20241203170141.790":
+  entity detector_tb at 1( 0) + 0 on 33;
+  architecture simple of detector_tb at 8( 113) + 0 on 34;

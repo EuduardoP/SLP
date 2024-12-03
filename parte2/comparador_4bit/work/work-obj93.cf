@@ -1,7 +1,7 @@
 v 4
-file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\comparador_4bit\" "comparador_tb.vhd" "4e24eb67367b57a8a3920b350988d396e570ebbb" "20241202212414.837":
-  entity comparador_tb at 1( 0) + 0 on 21;
-  architecture simple of comparador_tb at 8( 118) + 0 on 22;
-file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\comparador_4bit\" "comparador.vhd" "4d1c77bae154eec556d20e694c906eefa196186d" "20241202212414.836":
-  entity comparador at 1( 0) + 0 on 19;
-  architecture simple of comparador at 16( 365) + 0 on 20;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\comparador_4bit\" "comparador.vhd" "4d1c77bae154eec556d20e694c906eefa196186d" "20241203170331.650":
+  entity comparador at 1( 0) + 0 on 23;
+  architecture simple of comparador at 16( 365) + 0 on 24;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte2\comparador_4bit\" "comparador_tb.vhd" "4e24eb67367b57a8a3920b350988d396e570ebbb" "20241203170331.650":
+  entity comparador_tb at 1( 0) + 0 on 25;
+  architecture simple of comparador_tb at 8( 118) + 0 on 26;
