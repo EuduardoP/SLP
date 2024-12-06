@@ -1,0 +1,7 @@
+v 4
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte3\BCD\" "contador_BCD_tb.vhd" "25706c9394fa891a745218d0b76481135509fbe7" "20241206164025.836":
+  entity contador_bcd_tb at 1( 0) + 0 on 65;
+  architecture tb of contador_bcd_tb at 8( 116) + 0 on 66;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte3\BCD\" "contador_BCD.vhd" "93422af3780c6dbb59e32460108dd205a8ef3243" "20241206164025.835":
+  entity contador_bcd at 1( 0) + 0 on 63;
+  architecture contador_bcd of contador_bcd at 16( 587) + 0 on 64;

@@ -1,0 +1,10 @@
+v 4
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte3\BCD_4digits\" "BCD_4digits_tb.vhd" "0fb980347ec7aea9dd1dfb4dbd87e7738ca45fa8" "20241206190556.403":
+  entity bcd_4digits_tb at 1( 0) + 0 on 19;
+  architecture tb of bcd_4digits_tb at 8( 115) + 0 on 20;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte3\BCD_4digits\" "BCD_4digits.vhd" "4bbea5eef83fde7ab342b7c56dd59a4c261d6ce4" "20241206190556.402":
+  entity bcd_4digits at 1( 0) + 0 on 17;
+  architecture bcd_4digits of bcd_4digits at 18( 601) + 0 on 18;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte3\BCD_4digits\" "..\BCD\contador_BCD.vhd" "93422af3780c6dbb59e32460108dd205a8ef3243" "20241206190139.370":
+  entity contador_bcd at 1( 0) + 0 on 15;
+  architecture contador_bcd of contador_bcd at 16( 587) + 0 on 16;

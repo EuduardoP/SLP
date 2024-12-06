@@ -1,0 +1,7 @@
+v 4
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte3\reg_nbits\" ".\reg_nbits_tb.vhd" "7b432a334add6d6462b2320e067c75656475ad24" "20241206195346.957":
+  entity reg_nbits_tb at 1( 0) + 0 on 25;
+  architecture simple of reg_nbits_tb at 8( 119) + 0 on 26;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\parte3\reg_nbits\" ".\reg_nbits.vhd" "b5aa7b24099624f5aacc8c2403ce5964973f72d2" "20241206195346.956":
+  entity reg_nbits at 1( 0) + 0 on 23;
+  architecture simple of reg_nbits at 19( 387) + 0 on 24;
