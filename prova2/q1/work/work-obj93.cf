@@ -1,0 +1,7 @@
+v 4
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\prova2\" "primo_tb.vhd" "0989df417cfa0d3ff9ce5d5b094f784bba845a27" "20241205214523.172":
+  entity primo_tb at 1( 0) + 0 on 13;
+  architecture simple of primo_tb at 8( 109) + 0 on 14;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\prova2\" "primo.vhd" "ff4b6aee55a993f73a194dd4ca59af16c6761f7f" "20241205214523.172":
+  entity primo at 1( 0) + 0 on 11;
+  architecture simple of primo at 12( 204) + 0 on 12;
