@@ -13,7 +13,7 @@ architecture simple of detector is
 
 begin
     process (x)
-        variable  count : integer range 0 to 4; -- variável para contar os bits '1'
+        variable  count : integer range 0 to 4; -- variável para contar os bit     
     begin
         count := 0; -- inicializa o contador
 ---------------- incrementa o contador se o bit for '1' ----------------

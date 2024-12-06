@@ -41,14 +41,14 @@ begin
          wait for 10 ns;
          
          -- Teste de AND (10)
-         A <= "11110000";
-         B <= "00111100";
+         A <= "11110000"; -- 240
+         B <= "00111100"; -- 60
          CONTROLE <= "10";
          wait for 10 ns;
          
          -- Teste de zero output (11)
-         A <= "11111111";
-         B <= "11111111";
+         A <= "11111111"; -- 255
+         B <= "11111111"; -- 255
          CONTROLE <= "11";
          wait for 10 ns;
          
