@@ -1,0 +1,7 @@
+v 4
+file "/home/eduardo/Obsidian Vault/2° Semestre de 2024/SLP/prova2/q2/" "contador.vhd" "f9ce60c0069a7abed4d2c9c4a4a331d6b585773b" "20241211215718.008":
+  entity contador at 1( 0) + 0 on 85;
+  architecture simple of contador at 13( 214) + 0 on 86;
+file "/home/eduardo/Obsidian Vault/2° Semestre de 2024/SLP/prova2/q2/" "contador_tb.vhd" "11c1efc73f05b8585187cb2c0c27092f44691eef" "20241211215718.004":
+  entity contador_tb at 1( 0) + 0 on 83;
+  architecture simple of contador_tb at 8( 105) + 0 on 84;

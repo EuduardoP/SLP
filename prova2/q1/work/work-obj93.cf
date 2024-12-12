@@ -1,7 +1,7 @@
 v 4
-file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\prova2\" "primo_tb.vhd" "0989df417cfa0d3ff9ce5d5b094f784bba845a27" "20241205214523.172":
-  entity primo_tb at 1( 0) + 0 on 13;
-  architecture simple of primo_tb at 8( 109) + 0 on 14;
-file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\prova2\" "primo.vhd" "ff4b6aee55a993f73a194dd4ca59af16c6761f7f" "20241205214523.172":
-  entity primo at 1( 0) + 0 on 11;
-  architecture simple of primo at 12( 204) + 0 on 12;
+file "/home/eduardo/Obsidian Vault/2° Semestre de 2024/SLP/prova2/q1/" "primo.vhd" "4d884410c2b9d22d079bd7341f8dac0073f85dd2" "20241211200945.487":
+  entity primo at 1( 0) + 0 on 45;
+  architecture simple of primo at 13( 221) + 0 on 46;
+file "/home/eduardo/Obsidian Vault/2° Semestre de 2024/SLP/prova2/q1/" "primo_tb.vhd" "731a9993006b753a094e83843c0c4cfc00e69afd" "20241211200945.484":
+  entity primo_tb at 1( 0) + 0 on 43;
+  architecture simple of primo_tb at 8( 102) + 0 on 44;
