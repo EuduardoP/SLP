@@ -1,0 +1,123 @@
+$date
+  Thu Dec 05 18:45:49 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module primo_tb $end
+$var reg 4 ! x[3:0] $end
+$var reg 1 " y $end
+$scope module dut $end
+$var reg 4 # x[3:0] $end
+$var reg 1 $ y $end
+$var reg 1 % m1 $end
+$var reg 1 & m2 $end
+$var reg 1 ' m3 $end
+$var reg 1 ( m4 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+0"
+b0000 #
+0$
+0%
+0&
+0'
+0(
+#10000000
+b0001 !
+1"
+b0001 #
+1$
+1%
+#20000000
+b0010 !
+0"
+b0010 #
+0$
+0%
+#30000000
+b0011 !
+1"
+b0011 #
+1$
+1%
+1(
+#40000000
+b0100 !
+0"
+b0100 #
+0$
+0%
+0(
+#50000000
+b0101 !
+1"
+b0101 #
+1$
+1&
+1'
+#60000000
+b0110 !
+0"
+b0110 #
+0$
+0&
+0'
+#70000000
+b0111 !
+1"
+b0111 #
+1$
+1&
+#80000000
+b1000 !
+0"
+b1000 #
+0$
+0&
+#90000000
+b1001 !
+b1001 #
+#100000000
+b1010 !
+b1010 #
+#110000000
+b1011 !
+1"
+b1011 #
+1$
+1(
+#120000000
+b1100 !
+0"
+b1100 #
+0$
+0(
+#130000000
+b1101 !
+1"
+b1101 #
+1$
+1'
+#140000000
+b1110 !
+0"
+b1110 #
+0$
+0'
+#150000000
+b1111 !
+b1111 #
+#160000000
