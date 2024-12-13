@@ -1,0 +1,7 @@
+v 4
+file "/home/eduardo/Obsidian Vault/2° Semestre de 2024/SLP/trab2/prova2/exame-2022_1/q2/" "q2.vhd" "b9a997c17d22ff397869307e2763148cdd1279ca" "20241213025621.323":
+  entity q2 at 1( 0) + 0 on 29;
+  architecture q2 of q2 at 14( 205) + 0 on 30;
+file "/home/eduardo/Obsidian Vault/2° Semestre de 2024/SLP/trab2/prova2/exame-2022_1/q2/" "q2_tb.vhd" "5b2fe5172dfbe982ca7d9a1af9b07f160a7f6620" "20241213025621.320":
+  entity q2_tb at 1( 0) + 0 on 27;
+  architecture testbanch of q2_tb at 8( 99) + 0 on 28;

@@ -1,0 +1,7 @@
+v 4
+file "/home/eduardo/Obsidian Vault/2° Semestre de 2024/SLP/trab2/prova2/exame/q3/" "q3.vhd" "5c4b20c451582eff64e88e39551ab321a21edff4" "20241213014424.843":
+  entity q3 at 1( 0) + 0 on 101;
+  architecture simple of q3 at 16( 236) + 0 on 102;
+file "/home/eduardo/Obsidian Vault/2° Semestre de 2024/SLP/trab2/prova2/exame/q3/" "q3_tb.vhd" "4d21d56b9b78f83c9439974c25261b6dbe613460" "20241213014424.841":
+  entity q3_tb at 1( 0) + 0 on 99;
+  architecture testbench of q3_tb at 8( 99) + 0 on 100;
