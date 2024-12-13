@@ -1,0 +1,7 @@
+v 4
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\prova2\2024-1\q2\" "q2_tb.vhd" "13197d9ea4df0d336885938aa521f903cd6f2459" "20241213121004.623":
+  entity q2_tb at 1( 0) + 0 on 13;
+  architecture simple of q2_tb at 8( 106) + 0 on 14;
+file "C:\Users\Eduardo\Documents\Eduardo\ELC1119\trab2\prova2\2024-1\q2\" "q2.vhd" "7e93faf26d1e8bd75e743a07fac506c995e187e5" "20241213121004.622":
+  entity q2 at 1( 0) + 0 on 11;
+  architecture q2 of q2 at 14( 217) + 0 on 12;
